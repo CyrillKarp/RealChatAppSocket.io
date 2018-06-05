@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <h1>Woo, you see me!</h1>
+    <div id="chat-wrap">
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+        </div>
+        <input type="text" id="handle" placeholder="Handle">
+        <input type="text" id="message" placeholder="Message">
+        <button id="send">Send</button>
+    </div>
     
     <script src="/chat.js" ></script>
 </body>
